@@ -1,10 +1,6 @@
 import 'package:flutter/material.dart';
 import '../../../app/routes/routes.dart';
 import '../../../app/shared/colors.dart';
-import '../../../app/shared/colors.dart';
-import '../../../app/shared/colors.dart';
-import '../../../app/shared/dimensions.dart';
-import '../../../app/shared/dimensions.dart';
 import '../../../app/shared/dimensions.dart';
 import '../../widgets/button.dart';
 

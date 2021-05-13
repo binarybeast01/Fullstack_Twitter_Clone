@@ -12,11 +12,14 @@ class _LandingviewState extends State<Landingview> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: blackColor,
-      body: Row(
-        children: [
-         if(MediaQuery.of(context).size.width > 900) LandingImage(),
-          LandingSidebar()
-        ],
+      body: SingleChildScrollView(
+        scrollDirection: Axis.horizontal,
+        child: Row(
+          children: [
+            if (MediaQuery.of(context).size.width > 900) LandingImage(),
+            LandingSidebar()
+          ],
+        ),
       ),
     );
   }
